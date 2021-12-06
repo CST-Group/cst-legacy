@@ -1,7 +1,7 @@
 ![](https://github.com/CST-Group/cst-legacy/actions/workflows/java-ci.yml/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/67e5b914aea8a2c270e7/maintainability)](https://codeclimate.com/github/CST-Group/cst-legacy/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/67e5b914aea8a2c270e7/test_coverage)](https://codeclimate.com/github/CST-Group/cst-legacy/test_coverage)
-[![](https://jitpack.io/v/CST-Group/cst.svg?label=Release)](https://jitpack.io/#CST-Group/cst-legacy)
+[![](https://jitpack.io/v/CST-Group/cst-legacy.svg?label=Release)](https://jitpack.io/#CST-Group/cst-legacy)
 
 
 # Welcome to the CST Toolkit pages.
@@ -28,7 +28,7 @@ Note: This library is still under development, and some concepts or features mig
 ```
 	dependencies {
             ...
-            implementation 'com.github.CST-Group:cst:0.7.0'
+            implementation 'com.github.CST-Group:cst-legacy:1.0.0'
 	}
 ```
 
@@ -52,8 +52,8 @@ Sometimes, the version number (tag) in this README gets out of date, as maintain
 ```
 	<dependency>
 	    <groupId>com.github.CST-Group</groupId>
-	    <artifactId>cst</artifactId>
-	    <version>0.7.0</version>
+	    <artifactId>cst-legacy</artifactId>
+	    <version>1.0.0</version>
 	</dependency>
 ```
 
