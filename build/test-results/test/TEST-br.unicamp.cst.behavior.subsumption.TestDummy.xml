@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.unicamp.cst.behavior.subsumption.TestDummy" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-06T18:39:23" hostname="CPQGES29881K3" time="0.002">
+  <properties/>
+  <testcase name="dummyTest" classname="br.unicamp.cst.behavior.subsumption.TestDummy" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
