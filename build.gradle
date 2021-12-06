@@ -1,0 +1,45 @@
+plugins {
+    id 'java-library-distribution'
+    id 'jacoco'
+    id 'maven-publish'
+}
+
+group = 'com.github.CST-Group'
+
+description = "CST is the Cognitive Systems Toolkit, a toolkit for the construction of Cognitive Systems and Cognitive Architectures"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '0.7.0'
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+    maven {
+        url "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
+    }
+    maven {
+        url "https://repository.springsource.com/maven/bundles/release"
+    }
+    maven {
+        url "https://repository.springsource.com/maven/bundles/external"
+    }
+    maven { url 'https://jitpack.io' }
+}
+
+configurations {
+    extraLibs
+}
+
+dependencies {
+    api('com.github.CST-Group:cst:0.7.0')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
