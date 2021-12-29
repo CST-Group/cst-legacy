@@ -10,7 +10,7 @@ description = "CST is the Cognitive Systems Toolkit, a toolkit for the construct
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-version = '1.0.0'
+version = '1.0.1'
 
 repositories {
     flatDir {
@@ -34,7 +34,7 @@ configurations {
 }
 
 dependencies {
-    api('com.github.CST-Group:cst:0.7.0')
+    api('com.github.CST-Group:cst:1.0.0')
 
     testImplementation 'com.1stleg:jnativehook:2.1.0'
     testImplementation group: 'junit', name: 'junit', version: '4.12'
